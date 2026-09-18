@@ -57,7 +57,64 @@
     "action.reconcile": "Reconcile cost",
     "security.authorized": "Authorized access only",
     "security.denied": "You do not have permission to perform this action.",
-    "audit.recorded": "This action was recorded in the audit history."
+    "audit.recorded": "This action was recorded in the audit history.",
+    "page.title": "Marxia · Logistics",
+    "common.profile": "Profile",
+    "common.appearance": "Appearance",
+    "common.light": "Light",
+    "common.dark": "Dark",
+    "common.logout": "Log out",
+    "common.menu": "Menu",
+    "common.openMenu": "Open navigation",
+    "common.closeMenu": "Close navigation",
+    "common.enableLight": "Enable light theme",
+    "common.enableDark": "Enable dark theme",
+    "common.changeLanguage": "Change language",
+    "common.searchPlaceholder": "Search shipment, order, or customer…",
+    "logistics.summary": "Logistics summary",
+    "logistics.description": "Search, filter, schedule, and monitor every order moving through fulfillment.",
+    "logistics.openAccounting": "Open logistics accounting",
+    "logistics.scheduleShipment": "Schedule shipment",
+    "logistics.readyToSchedule": "Ready to schedule",
+    "logistics.onTimeDelivery": "On-time delivery",
+    "logistics.shippingCostMtd": "Shipping cost month to date",
+    "logistics.ordersShippedMtd": "Orders shipped this month",
+    "logistics.packed": "Packed",
+    "logistics.shipped": "Shipped",
+    "logistics.delivered": "Delivered",
+    "logistics.accountingIntegration": "Accounting integration",
+    "logistics.carrierExpenses": "Carrier expenses",
+    "logistics.shippingCollected": "Customer shipping collected",
+    "logistics.netContribution": "Net logistics contribution",
+    "logistics.unreconciled": "Unreconciled shipments",
+    "logistics.reconcileAccounting": "Reconcile in Accounting",
+    "logistics.shipmentQueue": "Shipment queue",
+    "logistics.all": "All",
+    "logistics.ready": "Ready",
+    "logistics.inTransit": "In transit",
+    "logistics.exception": "Exception",
+    "logistics.customer": "Customer",
+    "logistics.carrier": "Carrier",
+    "logistics.scheduled": "Scheduled",
+    "logistics.cost": "Cost",
+    "logistics.deliveryStatus": "Delivery status",
+    "logistics.pendingCost": "Pending cost",
+    "logistics.posted": "Posted",
+    "logistics.reconciled": "Reconciled",
+    "logistics.delayed": "Delayed",
+    "logistics.reviewHold": "Review hold",
+    "logistics.chooseOrder": "Choose an order",
+    "logistics.scheduledDate": "Scheduled date",
+    "logistics.estimatedCost": "Estimated shipping cost (USD)",
+    "logistics.sendAccounting": "Schedule and send to Accounting",
+    "action.filter": "Filter shipments",
+    "action.resolve": "Resolve",
+    "action.proof": "Proof",
+    "action.openProfile": "Open profile and appearance menu",
+    "status.noShipments": "No shipments match the selected filter.",
+    "status.scheduled": "Shipment scheduled and sent to Accounting.",
+    "status.updated": "Delivery status updated.",
+    "help.overviewLink": "The Overview fulfillment card opens directly to this live operating view."
   },
   "es": {
     "common.language": "Idioma",
@@ -113,13 +170,73 @@
     "action.reconcile": "Conciliar costo",
     "security.authorized": "Solo para usuarios autorizados",
     "security.denied": "No tienes permiso para realizar esta acción.",
-    "audit.recorded": "Esta acción se registró en el historial de auditoría."
+    "audit.recorded": "Esta acción se registró en el historial de auditoría.",
+    "page.title": "Marxia · Logística",
+    "common.profile": "Perfil",
+    "common.appearance": "Apariencia",
+    "common.light": "Claro",
+    "common.dark": "Oscuro",
+    "common.logout": "Cerrar sesión",
+    "common.menu": "Menú",
+    "common.openMenu": "Abrir navegación",
+    "common.closeMenu": "Cerrar navegación",
+    "common.enableLight": "Activar tema claro",
+    "common.enableDark": "Activar tema oscuro",
+    "common.changeLanguage": "Cambiar idioma",
+    "common.searchPlaceholder": "Buscar envío, pedido o cliente…",
+    "logistics.summary": "Resumen de logística",
+    "logistics.description": "Busca, filtra, programa y supervisa cada pedido durante su preparación y entrega.",
+    "logistics.openAccounting": "Abrir contabilidad logística",
+    "logistics.scheduleShipment": "Programar envío",
+    "logistics.readyToSchedule": "Listos para programar",
+    "logistics.onTimeDelivery": "Entregas a tiempo",
+    "logistics.shippingCostMtd": "Costo de envío del mes",
+    "logistics.ordersShippedMtd": "Pedidos enviados este mes",
+    "logistics.packed": "Empacados",
+    "logistics.shipped": "Enviados",
+    "logistics.delivered": "Entregados",
+    "logistics.accountingIntegration": "Integración contable",
+    "logistics.carrierExpenses": "Gastos del transportista",
+    "logistics.shippingCollected": "Envío cobrado al cliente",
+    "logistics.netContribution": "Contribución logística neta",
+    "logistics.unreconciled": "Envíos sin conciliar",
+    "logistics.reconcileAccounting": "Conciliar en Contabilidad",
+    "logistics.shipmentQueue": "Cola de envíos",
+    "logistics.all": "Todos",
+    "logistics.ready": "Listos",
+    "logistics.inTransit": "En tránsito",
+    "logistics.exception": "Incidencia",
+    "logistics.customer": "Cliente",
+    "logistics.carrier": "Transportista",
+    "logistics.scheduled": "Programado",
+    "logistics.cost": "Costo",
+    "logistics.deliveryStatus": "Estado de entrega",
+    "logistics.pendingCost": "Costo pendiente",
+    "logistics.posted": "Contabilizado",
+    "logistics.reconciled": "Conciliado",
+    "logistics.delayed": "Retrasado",
+    "logistics.reviewHold": "Revisar retención",
+    "logistics.chooseOrder": "Elegir pedido",
+    "logistics.scheduledDate": "Fecha programada",
+    "logistics.estimatedCost": "Costo estimado de envío (USD)",
+    "logistics.sendAccounting": "Programar y enviar a Contabilidad",
+    "action.filter": "Filtrar envíos",
+    "action.resolve": "Resolver",
+    "action.proof": "Comprobante",
+    "action.openProfile": "Abrir menú de perfil y apariencia",
+    "status.noShipments": "Ningún envío coincide con el filtro seleccionado.",
+    "status.scheduled": "Envío programado y enviado a Contabilidad.",
+    "status.updated": "Estado de entrega actualizado.",
+    "help.overviewLink": "La tarjeta de cumplimiento del Resumen abre directamente esta vista operativa."
   }
 };
-  let language = supported.has(localStorage.getItem(STORAGE_KEY)) ? localStorage.getItem(STORAGE_KEY) : "en";
+  let storedLanguage;
+  try { storedLanguage = localStorage.getItem(STORAGE_KEY); } catch {}
+  let language = supported.has(storedLanguage) ? storedLanguage : "en";
 
   const format = (text, values = {}) => Object.entries(values).reduce(
-    (result, [name, value]) => result.replaceAll(`{{${name}}}`, String(value)), text
+    (result, [name, value]) => result.replaceAll(`{{${name}}}`, String(value)),
+    text
   );
   const t = (key, values) => format(messages[language][key] ?? messages.en[key] ?? key, values);
 
@@ -129,12 +246,13 @@
     root.querySelectorAll("[data-i18n-placeholder]").forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
     root.querySelectorAll("[data-i18n-label]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.i18nLabel)); });
     root.querySelectorAll("[data-i18n-title]").forEach(el => { el.title = t(el.dataset.i18nTitle); });
+    document.title = t("page.title");
     document.dispatchEvent(new CustomEvent("marxia:languagechange", { detail: { language } }));
   };
   const setLanguage = locale => {
     if (!supported.has(locale)) return false;
     language = locale;
-    localStorage.setItem(STORAGE_KEY, locale);
+    try { localStorage.setItem(STORAGE_KEY, locale); } catch {}
     localize();
     return true;
   };
@@ -143,7 +261,26 @@
     Object.assign(messages[locale], additions);
     return true;
   };
-  window.MarxiaI18n = { get language(){ return language; }, messages, t, localize, register, setLanguage };
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => localize(), { once:true });
-  else localize();
+
+  const observer = new MutationObserver(records => {
+    records.forEach(record => record.addedNodes.forEach(node => {
+      if (node.nodeType === Node.ELEMENT_NODE) localize(node);
+    }));
+  });
+
+  window.MarxiaI18n = {
+    get language(){ return language; },
+    messages,
+    t,
+    localize,
+    register,
+    setLanguage
+  };
+
+  const start = () => {
+    localize();
+    observer.observe(document.body, { childList: true, subtree: true });
+  };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
+  else start();
 })();
