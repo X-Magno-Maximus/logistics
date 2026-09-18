@@ -49,4 +49,6 @@ MarxiaI18n.register("es", { "dashboard.title": "Panel" });
 
 ## Current repository state
 
-The repository currently has a blank placeholder page. The shared i18n runtime and maintenance standard are ready; page-specific keys must be added when its dashboard interface is implemented.
+The repository currently has a blank placeholder page (`index.html` contains no interface markup). The standalone Logistics runtime now provides 111 matching English and Spanish operational keys for navigation, deliveries, couriers, shipment status, accounting reconciliation, filters, actions, messages, titles, placeholders, and accessibility labels. When the standalone dashboard is implemented, every visible string must reference these keys rather than embed bilingual copy.
+
+The currently rendered Logistics interface is `X-Magno-Maximus/smbs/logistics.html`; it must be audited and released from the `smbs` repository independently.
